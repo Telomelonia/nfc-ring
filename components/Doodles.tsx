@@ -155,9 +155,9 @@ export function BlobShape({ className = "" }: { className?: string }) {
 export function AnimatedTeloText({ className = "" }: { className?: string }) {
   return (
     <motion.svg
-      width="320"
+      width="260"
       height="140"
-      viewBox="0 0 320 140"
+      viewBox="0 0 260 140"
       fill="none"
       className={className}
       initial={{ opacity: 0 }}

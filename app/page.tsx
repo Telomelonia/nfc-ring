@@ -57,19 +57,45 @@ export default function Home() {
       {/* Animated background elements */}
       <div className="fixed inset-0 pointer-events-none">
         {/* Blob shapes */}
-        <div className="absolute top-10 -left-10 text-yellow-200">
+        <div className="absolute top-10 -left-10 text-rose-500">
           <BlobShape />
         </div>
-        <div className="absolute top-1/3 -right-20 text-orange-200">
+        <div className="absolute top-1/3 -right-20 text-orange-600">
           <BlobShape />
         </div>
-        <div className="absolute bottom-20 left-1/4 text-amber-200">
+        <div className="absolute bottom-20 left-1/4 text-amber-600">
+          <BlobShape />
+        </div>
+        <div className="absolute top-2/3 right-1/3 text-pink-500">
+          <BlobShape />
+        </div>
+        <div className="absolute bottom-1/3 -left-16 text-red-400">
           <BlobShape />
         </div>
 
         {/* Decorative circles */}
-        <div className="absolute top-1/4 right-1/4 text-yellow-300">
+        <div className="absolute top-1/4 right-1/4 text-yellow-700">
           <CircleDoodle />
+        </div>
+        <div className="absolute bottom-1/4 left-1/3 text-orange-600">
+          <CircleDoodle />
+        </div>
+        <div className="absolute top-1/2 -left-10 text-rose-600">
+          <CircleDoodle />
+        </div>
+
+        {/* Small decorative stars */}
+        <div className="absolute top-20 right-1/3 text-amber-600 scale-75">
+          <StarDoodle />
+        </div>
+        <div className="absolute bottom-32 right-1/4 text-orange-700 scale-50">
+          <StarDoodle />
+        </div>
+        <div className="absolute top-1/2 right-12 text-yellow-600 scale-90">
+          <StarDoodle />
+        </div>
+        <div className="absolute bottom-1/2 left-20 text-rose-600 scale-60">
+          <StarDoodle />
         </div>
       </div>
 
@@ -103,7 +129,7 @@ export default function Home() {
 
           {/* Decorative arrow pointing down */}
           <motion.div
-            className="mt-8 flex justify-center text-amber-300"
+            className="mt-8 flex justify-center text-amber-600"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 2.8 }}
@@ -140,7 +166,7 @@ export default function Home() {
 
       {/* Floating decorative elements */}
       <motion.div
-        className="fixed bottom-10 right-10 text-orange-400 pointer-events-none"
+        className="fixed bottom-10 right-10 text-orange-700 pointer-events-none"
         animate={{
           y: [0, -20, 0],
           rotate: [0, 5, -5, 0],
