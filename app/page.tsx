@@ -85,8 +85,8 @@ export default function Home() {
           </div>
 
           {/* Animated handwritten name */}
-          <div className="relative inline-block">
-            <div className="text-gray-900 scale-125 sm:scale-150">
+          <div className="flex justify-center items-center">
+            <div className="text-gray-900 scale-110 sm:scale-125">
               <AnimatedTeloText />
             </div>
           </div>

@@ -164,9 +164,9 @@ export function AnimatedTeloText({ className = "" }: { className?: string }) {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}
     >
-      {/* Letter t - more natural curve */}
+      {/* Letter t - longer top bar */}
       <motion.path
-        d="M25 30 Q 23 35, 23 50 L 23 85 Q 23 95, 28 98 M 12 38 L 35 38"
+        d="M25 30 Q 23 35, 23 50 L 23 85 Q 23 95, 28 98 M 8 38 L 40 38"
         stroke="currentColor"
         strokeWidth="6"
         strokeLinecap="round"
@@ -177,9 +177,9 @@ export function AnimatedTeloText({ className = "" }: { className?: string }) {
         transition={{ duration: 0.7, delay: 0.2, ease: "easeInOut" }}
       />
 
-      {/* Letter e - handwritten style */}
+      {/* Letter e - fixed, not mirrored */}
       <motion.path
-        d="M 88 68 L 60 68 Q 55 68, 55 63 Q 55 50, 68 48 Q 82 46, 88 58 Q 92 68, 82 80 Q 72 88, 60 82"
+        d="M 60 68 L 88 68 Q 93 68, 93 63 Q 93 50, 80 48 Q 66 46, 60 58 Q 56 68, 66 80 Q 76 88, 88 82"
         stroke="currentColor"
         strokeWidth="6"
         strokeLinecap="round"
@@ -218,7 +218,7 @@ export function AnimatedTeloText({ className = "" }: { className?: string }) {
 
       {/* Decorative underline flourish */}
       <motion.path
-        d="M 12 108 Q 80 102, 160 105 Q 200 106, 210 108"
+        d="M 8 108 Q 80 102, 160 105 Q 200 106, 210 108"
         stroke="currentColor"
         strokeWidth="3"
         strokeLinecap="round"
