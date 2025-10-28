@@ -33,6 +33,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}
+        suppressHydrationWarning
       >
         <div className="doodle-bg" />
         <div className="grain" />
